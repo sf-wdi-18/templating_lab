@@ -38,8 +38,8 @@ function problem5(targetEl, gif_url){
   // "http://media1.giphy.com/media/GsZDu04MCYEg/100.gif"
   // Create an img element and set its src attribute to the gif
   // Prepend the gif to the header.
-
 }
+
 function problem6(targetId, templateId, foodname){
   // Our goal is to create a list of foods
   // We already have a list (ul) in our html, but we need to populate it with items (li)
@@ -66,7 +66,7 @@ var foods8 =[
   {id: 4, name: "Kale", yumminess: "meh"}
 ];
 
-problem8(targetId, templateId, first_food){
+function problem8(targetId, templateId, first_food){
   // Using your solution to #6, wihthout making major changes,
   // can you render just the first item, "Sushiritto", in your list?
 }
