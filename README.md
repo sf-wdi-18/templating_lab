@@ -11,3 +11,8 @@ Today we're going to explore some approaches to html templating on the frontend.
     - Making a AJAX/GET request to `/foods` returns a list of food items to the frontend
 
 ![goal](/goal.png)
+
+
+# SPOILERS
+
+[Solutions branch](https://github.com/sf-wdi-18/templating_lab/tree/solution)
