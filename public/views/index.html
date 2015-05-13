@@ -28,24 +28,29 @@
   </div>
   <footer>Created by Jon Doe</footer>
 </body>
-  <!-- Underscore template -->
+  
+  <!-- BEGIN Underscore templates -->
+  
   <script type="text/template" id="tmpl-greeting-example">
     <p><%= greeting %></p>
   </script>
 
-<script type="text/template" id="tmpl-loop-example">
-  <p>
-    <h4><%= name %></h4>
-    <% list.forEach(function(item){ %>
-      <strong><%= item %></strong>
-    <% }) %>
-  </p>
-</script>
+  <script type="text/template" id="tmpl-food-item">
+    <li><%= name %></li>
+  </script>  
 
+  <script type="text/template" id="tmpl-loop-example">
+    <p>
+      <h4><%= name %> says:</h4>
+      <ul>
+      <% list.forEach(function(item){ %>
+        <li><button class='btn btn-primary'><%= item %></button class='btn btn-primary'></li>
+      <% }) %>
+      </ul
+    </p>
+  </script>
 
-
-
-
+  <!-- END Underscore templates -->
 
 </html>
 
