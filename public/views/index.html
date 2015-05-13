@@ -26,13 +26,10 @@
     <ul class="list-group" id="food-ul">
     </ul>
   </div>
+  <footer>Created by Jon Doe</footer>
 </body>
   <!-- Underscore template -->
-  <script type="text/template" id="foods-template">
-    <% _.each(collection, function(item){ %>
-      <li class='list-group-item'><%= item.name %>
-        <span class="label label-default"><%= item.yumminess%></span>
-      </li>
-    <% }); %>
+  <script type="text/template" id="tmpl-greeting-example">
+    <p><%= greeting ></p>
   </script>
 </html>
